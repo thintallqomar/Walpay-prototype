@@ -3,9 +3,44 @@ body {
   background-color: #f4f6f8;
   color: #1f2937;
   margin: 0 auto;
-  max-width: 375px;}
+  max-width: 375px;
+}
+
 header {
   background-color: #0f766e;
   color: white;
   padding: 20px;
+}
+
+section {
+  background-color: white;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 12px;
+}
+
+button {
+  background-color: #0f766e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+.balance {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0f766e;
+  margin: 4px 0 16px;
 }
